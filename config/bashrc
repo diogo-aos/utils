@@ -1,0 +1,9 @@
+# Python related
+alias virton="source pyenv/bin/activate"
+alias genv3="source $HOME/.general_py3/bin/activate"
+alias genv2="source $HOME/.general_py2/bin/activate"
+
+# hides user@machine:/current/path/
+# promt becomes just ">", much nicer
+export PS1='> '
+
