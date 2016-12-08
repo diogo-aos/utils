@@ -1,2 +1,0 @@
-# util aliases
-alias virton="source pyenv/bin/activate"
