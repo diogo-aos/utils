@@ -46,3 +46,6 @@
   'ctrl-b': 'core:move-left'
   'ctrl-f': 'core:move-right'
   'ctrl-s': 'find-and-replace:show'
+
+'atom-text-editor':
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
