@@ -49,7 +49,6 @@
   'ctrl-alt-k ctrl-alt-b': 'pane:split-left-and-copy-active-item'
   'ctrl-alt-k ctrl-alt-f': 'pane:split-right-and-copy-active-item'
 
-
 '.platform-linux':
   'ctrl-p': 'core:move-up'  # fuzzy-finder:toggle-file-finder
   'ctrl-b': 'core:move-left'
@@ -62,4 +61,6 @@
 
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
   'ctrl-shift-e': 'find-and-replace:use-selection-as-find-pattern'
+
+'atom-text-editor':
   'ctrl-e': 'editor:move-to-end-of-screen-line'
