@@ -13,17 +13,3 @@ The `install.sh` script simply adds `/bin` to the `$PATH` inside the system's
 
 ## Terminal alias
 This alias simply hides the `user@machinename:/current/path$ ` by the simpler `>`.
-
-# Firefox profile creator
-```
-usage: ff_new_prof.py [-h] [--ppath PPATH] name
-
-Create new Firefox profile.
-
-positional arguments:
-  name           profile name
-
-optional arguments:
-  -h, --help     show this help message and exit
-  --ppath PPATH  path to store profile folder
-```
