@@ -31,6 +31,15 @@
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
 
+# There is an hierarchy of binding selectos (e.g. body, platform-linux), and this
+# hierarchy must be respected or else the overriding might not work.
+# For example, if you want to attribute a binding B to a function F, the selector
+# to use should be the one higher in the hierarchy between B and F.
+# If a particular binding is not working as it should you can use the Keybinding
+# Resolver and press the desired binding to see what is being triggered and in
+# which order.
+# https://discuss.atom.io/t/overriding-core-keybindings/10180/6
+
 'body':
   'ctrl-n': 'core:move-down'  # 'application:new-file'
   'ctrl-k ctrl-s': 'core:save'
@@ -46,3 +55,11 @@
   'ctrl-b': 'core:move-left'
   'ctrl-f': 'core:move-right'
   'ctrl-s': 'find-and-replace:show'
+
+'atom-workspace atom-text-editor':
+  'ctrl-shift-a': 'core:select-all'
+  'ctrl-a': 'editor:move-to-first-character-of-line'
+
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'ctrl-shift-e': 'find-and-replace:use-selection-as-find-pattern'
+  'ctrl-e': 'editor:move-to-end-of-screen-line'
