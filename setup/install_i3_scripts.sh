@@ -21,4 +21,4 @@ echo "# move workspace to another monitor" >> $HOME/.config/i3/config
 echo "# works only horizontally" >> $HOME/.config/i3/config
 echo "# bindsym \$mod+Tab move workspace to output right" >> $HOME/.config/i3/config
 echo "# works horizontally and vertically" >> $HOME/.config/i3/config
-echo "bindsym $mod+Tab exec $HOME/.i3_pyenv/bin/python $(pwd)/cycle-workspace.py" >> $HOME/.config/i3/config
+echo "bindsym \$mod+Tab exec $HOME/.i3_pyenv/bin/python $(pwd)/cycle-workspace.py" >> $HOME/.config/i3/config
