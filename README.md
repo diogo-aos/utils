@@ -2,8 +2,13 @@ This repo holds a collection of useful things, from aliases and config files
 from various applications to utility scripts.
 
 # Installation
-The `install.sh` script simply adds `/bin` to the `$PATH` inside the system's
-`bashrc`. It also has the system's `bashrc` source `/config/bashrc`.
+| script           | description |
+| ---------------- | ---------- |
+| install_utils.sh | installs the bashrc, adds bin folder to path |
+| install_i3.sh | installs i3 configuration |
+| install_i3_scripts.sh | creates python virtualenv for i3 scripts, adds keyboard binding to i3 config for scripts |
+| python_envs.sh | creates general python virtualenvs for python2 and python3 and creates appropriate aliases |
+
 
 # Aliases
 ## Python Virtualenv aliases
