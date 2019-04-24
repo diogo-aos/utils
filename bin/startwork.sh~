@@ -1,0 +1,7 @@
+#!/bin/sh
+
+emacs /home/chiro/workspace/self_driving_car/term3/CarND-Path-Planning-Project/src/main.cpp &
+firefox https://classroom.udacity.com/nanodegrees/nd013/parts/6047fe34-d93c-4f50-8336-b70ef10cb4b2/modules/27800789-bc8e-4adc-afe0-ec781e82ceae/lessons/23add5c6-7004-47ad-b169-49a5d7b1c1cb/concepts/4f9bfd12-9c32-4f91-86b4-4c7a206afaab & 
+terminator --working-dir=/home/chiro/workspace/self_driving_car/term3/CarND-Path-Planning-Project &
+terminator --working-dir=/home/chiro/workspace/self_driving_car/term3/term3_sim_linux &
+
